@@ -5,7 +5,8 @@ import img3 from '../../Assets/images/slider-image-3.jpeg'
 import imgae1 from '../../Assets/images/grocery-banner.png'
 import imgae2 from '../../Assets/images/grocery-banner-2.jpeg'
 import Slider from 'react-slick'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 export default function MainSlider() {
@@ -23,7 +24,7 @@ export default function MainSlider() {
     
 
   return <>
-  {/* <div className="row my-3 gx-0">
+  <div className="row my-3 gx-0">
     <div className="col-md-9">
    <Slider {...settings}>
 
@@ -39,7 +40,7 @@ export default function MainSlider() {
             <img src={imgae2}  height={200} className='w-100' alt="" />
         </div>
     </div>
-  </div> */}
+  </div>
   
   </>
 }
